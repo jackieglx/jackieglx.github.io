@@ -44,3 +44,9 @@ body{
     background-color: #FADBE3;
 }
 
+
+@media (max-width: 768px) {
+    nav{
+        padding: 0 2rem;
+    }
+}

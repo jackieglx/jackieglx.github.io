@@ -1,0 +1,47 @@
+/* Projects Section */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* This sets 3 columns per row */
+    gap: 2rem;
+    padding: 6rem 5rem;
+    background-color: #FADBE3;
+    min-height: 100vh;
+}
+
+.project-card {
+    background-color: #3E3A3B;
+    padding: 1.5rem;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 250px;
+}
+
+.project-card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #ddd;
+}
+
+.project-card .date {
+    font-size: 0.875rem;
+    color: #ED5A72;
+    margin-bottom: 0.75rem;
+}
+
+.project-card a {
+    color: #ED5A72;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 0;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}

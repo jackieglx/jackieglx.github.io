@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    height: calc(100vh - 4rem);
+    padding: 6rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card {
+    background-color: #ED5A72;
+    border-radius: 12px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color: white;
+}
+.last-card{
+    margin-right: 2rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 1rem;
+    color: #FADBE3;
+    margin-top: 0.5rem;
+}
+
+/* Pink-themed icons */
+.linkedin {
+    color: #FADBE3;
+}
+
+.email {
+    color: #FADBE3;
+}
+
+.github {
+    color: #FADBE3;
+}

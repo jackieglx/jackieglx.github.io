@@ -31,10 +31,15 @@ nav {
     color: #FADBE3;
 }
 
+
 a {
     color: white;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1.125rem;
     margin-left: 3rem;
+}
+
+body{
+    background-color: #FADBE3;
 }

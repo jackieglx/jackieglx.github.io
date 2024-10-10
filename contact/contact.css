@@ -1,20 +1,21 @@
+/* Container Styling */
 .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    height: calc(100vh - 4rem);
-    padding: 6rem 2rem;
+    justify-content: center; /* Center the cards horizontally */
+    align-items: center; /* Align cards vertically */
+    gap: 2rem; /* Set gap between cards */
+    padding: 20rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    flex-wrap: nowrap; /* Allow cards to wrap on smaller screens */
 }
 
-
+/* Card Styling */
 .card {
     background-color: #ED5A72;
     border-radius: 12px;
-    width: 300px;
-    height: 300px;
+    width: 300px; /* Fixed width */
+    height: 300px; /* Fixed height */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -23,9 +24,8 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     color: white;
-}
-.last-card{
-    margin-right: 2rem;
+    margin: 1rem; /* Ensure consistent margin around cards */
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 .card:hover {
@@ -33,7 +33,7 @@
 }
 
 .icon {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
@@ -49,14 +49,50 @@
 }
 
 /* Pink-themed icons */
-.linkedin {
+.linkedin, .email, .github {
     color: #FADBE3;
 }
 
-.email {
-    color: #FADBE3;
+/* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack the cards vertically */
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 10rem 2rem;
+    }
+
+    .card {
+        width: 300px; /* Maintain fixed width on smaller screens */
+        height: 300px; /* Maintain fixed height */
+        padding: 2rem 1rem;
+    }
 }
 
-.github {
-    color: #FADBE3;
+/* Media Query for Mobile Screens */
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column; /* Stack cards vertically */
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .card {
+        width: 300px; /* Maintain fixed width for consistency */
+        height: 300px; /* Maintain consistent height for all cards */
+    }
+
+    .icon {
+        font-size: 1.75rem;
+    }
+
+    .contact-info {
+        font-size: 1.15rem;
+    }
+
+    .label {
+        font-size: 0.85rem;
+    }
 }

@@ -43,3 +43,20 @@ a {
 body{
     background-color: #FADBE3;
 }
+
+@media (max-width: 768px) {
+    nav {
+        padding: 0 1rem;
+        justify-content: start;
+    }
+
+    .nav-links {
+        gap: 1rem;
+        margin-left: 5rem;
+    }
+
+    a {
+        font-size: 0.875rem; /* 缩小字体 */
+        margin-left: 1rem; /* 减少链接之间的间距 */
+    }
+}

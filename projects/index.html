@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 1.125rem;
+            margin-left: 3rem;
+        }
+
+        nav {
+            position: fixed;
+            background: #ED5A72;
+            height: 4rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 6rem;
+        }
+
+        .logo {
+            color: #3E3A3B;
+        }
+
+        .logo span {
+            color: #FADBE3;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Projects Section */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* This sets 3 columns per row */
+            gap: 2rem;
+            padding: 6rem 5rem;
+            background-color: #FADBE3;
+            min-height: 100vh;
+        }
+
+        .project-card {
+            background-color: #3E3A3B;
+            padding: 1.5rem;
+            border-radius: 12px;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: 250px;
+        }
+
+        .project-card h3 {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: #ddd;
+        }
+
+        .project-card .date {
+            font-size: 0.875rem;
+            color: #ED5A72;
+            margin-bottom: 0.75rem;
+        }
+
+        .project-card a {
+            color: #ED5A72;
+            font-weight: bold;
+            text-decoration: none;
+            text-align: left;
+            margin-left: 0;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <h2>Web<span>Dev</span></h2>
+    </div>
+    <div class="nav-links">
+        <a href="../index.html">About</a>
+        <a href="./index.html">Projects</a>
+        <a href="../hobby/index.html">Hobbies</a>
+        <a href="../contact/index.html">Contact</a>
+    </div>
+</nav>
+
+<!-- Projects Section -->
+<section class="projects">
+    <div class="project-card">
+        <span class="date">Aug 19, 2024</span>
+        <h3>Furniture Store Version 2.0</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Doloremque doloribus harum iusto laborum magni molestias nam nihil perferendis praesentium quaerat,
+            quibusdam quisquam rem repudiandae sint veniam.
+            Facere illum incidunt laboriosam, natus nihil saepe sed? Architecto corporis cum quaerat soluta voluptatem!
+        </p>
+        <a href="https://github.com/jackieglx/nextjs-store">Read more →</a>
+    </div>
+
+    <div class="project-card">
+        <span class="date">Jun 5, 2024</span>
+        <h3>Furniture Store Version 1.0</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Doloremque doloribus harum iusto laborum magni molestias nam nihil perferendis praesentium quaerat,
+            quibusdam quisquam rem repudiandae sint veniam.
+            Facere illum incidunt laboriosam, natus nihil saepe sed? Architecto corporis cum quaerat soluta voluptatem!
+        </p>
+        <a href="https://github.com/jackieglx/furniture_store_comfy">Read more →</a>
+    </div>
+
+    <div class="project-card">
+        <span class="date">May 17, 2024</span>
+        <h3>Travel</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Doloremque doloribus harum iusto laborum magni molestias nam nihil perferendis praesentium quaerat,
+            quibusdam quisquam rem repudiandae sint veniam.
+            Facere illum incidunt laboriosam, natus nihil saepe sed? Architecto corporis cum quaerat soluta voluptatem!
+        </p>
+        <a href="https://github.com/jackieglx/travel-website">Read more →</a>
+    </div>
+
+    <div class="project-card">
+        <span class="date">April 12, 2024</span>
+        <h3>Search Photo</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Doloremque doloribus harum iusto laborum magni molestias nam nihil perferendis praesentium quaerat,
+            quibusdam quisquam rem repudiandae sint veniam.
+            Facere illum incidunt laboriosam, natus nihil saepe sed? Architecto corporis cum quaerat soluta voluptatem!
+        </p>
+        <a href="https://github.com/jackieglx/search-photo-app">Read more →</a>
+    </div>
+
+</section>
+
+</body>
+</html>

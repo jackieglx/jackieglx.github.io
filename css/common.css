@@ -56,7 +56,7 @@ body{
     }
 
     a {
-        font-size: 0.875rem; /* 缩小字体 */
-        margin-left: 1rem; /* 减少链接之间的间距 */
+        font-size: 0.875rem;
+        margin-left: 1rem;
     }
 }

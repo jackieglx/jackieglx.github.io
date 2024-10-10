@@ -1,7 +1,7 @@
 /* Projects Section */
 .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* This sets 3 columns per row */
+    grid-template-columns: repeat(3, 1fr); /* 默认设置为3列布局 */
     gap: 2rem;
     padding: 6rem 5rem;
     background-color: #FADBE3;
@@ -44,4 +44,24 @@
 
 .project-card a:hover {
     text-decoration: underline;
+}
+
+/* Media Queries for Tablet and Smaller Screens */
+@media (max-width: 1024px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr;
+        padding: 4rem 2rem;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+    }
 }

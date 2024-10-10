@@ -61,7 +61,7 @@ ul li:hover {
 }
 
 ul li::before {
-    content: "🍴"; /* Add an icon or emoji for a visual touch */
+    content: "🍴";
     margin-right: 1rem;
     font-size: 1.5rem;
 }
@@ -132,7 +132,7 @@ ul li::before {
     }
 
     .cards-section {
-        grid-template-columns: 1fr 1fr; /* Two columns for medium-sized screens */
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -152,21 +152,21 @@ ul li::before {
     }
 
     .cards-section {
-        grid-template-columns: 1fr; /* Single column for smaller screens */
+        grid-template-columns: 1fr;
     }
 
     ul li {
-        font-size: 1.25rem; /* Slightly smaller font for smaller screens */
+        font-size: 1.25rem;
     }
 
     ul li::before {
-        font-size: 1.25rem; /* Adjust icon size */
+        font-size: 1.25rem;
     }
 }
 
 @media (max-width: 480px) {
     .content h1 {
-        font-size: 2.5rem; /* Smaller header for small screens */
+        font-size: 2.5rem;
     }
 
     .content p {
@@ -178,6 +178,6 @@ ul li::before {
     }
 
     .cards-section {
-        padding: 2rem 1rem; /* Reduce padding on very small screens */
+        padding: 2rem 1rem;
     }
 }

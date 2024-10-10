@@ -1,21 +1,21 @@
 /* Container Styling */
 .container {
     display: flex;
-    justify-content: center; /* Center the cards horizontally */
-    align-items: center; /* Align cards vertically */
-    gap: 2rem; /* Set gap between cards */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     padding: 20rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    flex-wrap: nowrap; /* Allow cards to wrap on smaller screens */
+    flex-wrap: nowrap;
 }
 
 /* Card Styling */
 .card {
     background-color: #ED5A72;
     border-radius: 12px;
-    width: 300px; /* Fixed width */
-    height: 300px; /* Fixed height */
+    width: 300px;
+    height: 300px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -24,8 +24,8 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     color: white;
-    margin: 1rem; /* Ensure consistent margin around cards */
-    flex-shrink: 0; /* Prevent shrinking */
+    margin: 1rem;
+    flex-shrink: 0;
 }
 
 .card:hover {
@@ -56,7 +56,7 @@
 /* Media Query for Tablets and Smaller Screens */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Stack the cards vertically */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
@@ -66,8 +66,8 @@
     }
 
     .card {
-        width: 300px; /* Maintain fixed width on smaller screens */
-        height: 300px; /* Maintain fixed height */
+        width: 300px;
+        height: 300px;
         padding: 2rem 1rem;
     }
 }
@@ -75,15 +75,15 @@
 /* Media Query for Mobile Screens */
 @media (max-width: 480px) {
     .container {
-        flex-direction: column; /* Stack cards vertically */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 2rem;
     }
 
     .card {
-        width: 300px; /* Maintain fixed width for consistency */
-        height: 300px; /* Maintain consistent height for all cards */
+        width: 300px;
+        height: 300px;
     }
 
     .icon {

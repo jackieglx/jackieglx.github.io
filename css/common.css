@@ -1,0 +1,40 @@
+/* common.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    background: #ED5A72;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #3E3A3B;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    color: #FADBE3;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    margin-left: 3rem;
+}

@@ -44,19 +44,3 @@ body{
     background-color: #FADBE3;
 }
 
-@media (max-width: 768px) {
-    nav {
-        padding: 0 1rem;
-        justify-content: start;
-    }
-
-    .nav-links {
-        gap: 1rem;
-        margin-left: 5rem;
-    }
-
-    a {
-        font-size: 0.875rem;
-        margin-left: 1rem;
-    }
-}

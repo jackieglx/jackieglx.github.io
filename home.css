@@ -65,7 +65,7 @@
 @media (max-width: 1024px) {
     .hero {
         flex-direction: column;
-        padding: 2rem;
+        padding: 7rem 2rem 0 2rem;
     }
 
     .hero-content, .hero-image {
